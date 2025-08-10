@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Heritage Leather Belt (38mm)",
+    "category": "leather",
+    "price": 129.0,
+    "description": "Full‑grain leather, solid brass buckle, logo emboss option.",
+    "tags": [
+      "belt",
+      "brass",
+      "handmade"
+    ],
+    "image": "assets/ph-belt.svg",
+    "link": "mailto:orders@outbackrangerco.example?subject=Heritage%20Belt%20Order"
+  },
+  {
+    "name": "Kangaroo Leather Wallet",
+    "category": "leather",
+    "price": 149.0,
+    "description": "Slim, strong and Aussie as — with embossed logo.",
+    "tags": [
+      "wallet",
+      "kangaroo"
+    ],
+    "image": "assets/ph-wallet.svg",
+    "link": "mailto:orders@outbackrangerco.example?subject=Wallet%20Order"
+  },
+  {
+    "name": "Waxed Canvas Tote",
+    "category": "canvas",
+    "price": 119.0,
+    "description": "18oz olive canvas, leather handles, bar‑tacked stress points.",
+    "tags": [
+      "tote",
+      "waxed",
+      "canvas"
+    ],
+    "image": "assets/ph-tote.svg",
+    "link": "mailto:orders@outbackrangerco.example?subject=Tote%20Order"
+  },
+  {
+    "name": "Field Pouch",
+    "category": "canvas",
+    "price": 69.0,
+    "description": "Organize tools, cords or first aid — small but tough.",
+    "tags": [
+      "pouch",
+      "canvas",
+      "edc"
+    ],
+    "image": "assets/ph-pouch.svg",
+    "link": "mailto:orders@outbackrangerco.example?subject=Field%20Pouch%20Order"
+  },
+  {
+    "name": "Card Sleeve",
+    "category": "accessories",
+    "price": 39.0,
+    "description": "Minimal card carry in premium leather.",
+    "tags": [
+      "card",
+      "leather"
+    ],
+    "image": "assets/ph-card.svg",
+    "link": "mailto:orders@outbackrangerco.example?subject=Card%20Sleeve%20Order"
+  }
+]

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Outback Ranger Co. — Heritage Leather & Waxed Canvas</title>
+  <meta name="description" content="Australian-made leather belts, wallets and waxed canvas gear. Built for the bush.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/logo.svg" as="image">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./">
+      <img src="assets/logo.svg" alt="Outback Ranger Co. logo" width="140" height="70">
+      <span>Outback Ranger Co.</span>
+    </a>
+    <nav class="nav">
+      <a href="./catalog.html">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <h1>Heritage leather & canvas, built for the bush.</h1>
+        <p>Hard-wearing belts, wallets and waxed canvas gear — designed in Australia for real work and real weather.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="./catalog.html">Browse the range</a>
+          <a class="btn ghost" href="#contact">Wholesale & custom</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="grid two">
+        <div>
+          <h2>Made to age beautifully</h2>
+          <p>We cut, stitch and finish with purpose. Solid brass hardware, full‑grain leather, heavy waxed canvas. Pieces that pick up stories — not faults.</p>
+          <ul class="checklist">
+            <li>Australian sizing & robust construction</li>
+            <li>Personalised embossing available</li>
+            <li>Limited-run drops, lifetime care tips</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>What we make</h3>
+          <ul>
+            <li>Leather belts, wallets, card sleeves</li>
+            <li>Waxed canvas totes, backpacks, pouches</li>
+            <li>Key fobs, field notebooks & accessories</li>
+          </ul>
+          <a class="btn" href="./catalog.html">See products</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section muted">
+      <div class="grid two">
+        <div>
+          <h2>Contact & custom work</h2>
+          <p>Need branded belts or canvas for your crew? We take small-batch custom orders.</p>
+          <p><strong>Email:</strong> hello@outbackrangerco.example</p>
+          <p><strong>Instagram:</strong> @outbackrangerco</p>
+        </div>
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Thanks — we\'ll be in touch!');">
+          <label>Name<input type="text" required></label>
+          <label>Email<input type="email" required></label>
+          <label>Message<textarea rows="4" required></textarea></label>
+          <button class="btn primary" type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© <span id="y"></span> Outback Ranger Co. • Built with love and brass rivets.</small>
+  </footer>
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
